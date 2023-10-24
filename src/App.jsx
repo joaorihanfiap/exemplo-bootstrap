@@ -43,12 +43,29 @@ function App() {
 
 
     <br /><br /><br />
-    <table>
+    <table className='table table-stripped table-bordered table-hover'>
       <thead>
         <th>Nome</th>
         <th>Endereço</th>
         <th>Telefone</th>
       </thead>
+      <tbody>
+        <tr className='table-primary'>
+          <td>Rodnei</td>
+          <td>Rua Dos Rodrigos</td>
+          <td>12348819</td>
+        </tr>
+        <tr>
+          <td>@Eric Rodrigues</td>
+          <td>Instagram</td>
+          <td>696969696969</td>
+        </tr>
+        <tr className='table-primary'>
+          <td>Matthew Zanardi</td>
+          <td>Gym</td>
+          <td>11993920088</td>
+        </tr>
+      </tbody>
     </table>
 
     </>
