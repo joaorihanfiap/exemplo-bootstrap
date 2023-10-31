@@ -1,10 +1,14 @@
-
 import './App.css'
+import Lista from './components/Lista'
+import Menu from './components/Menu'
+import Slides from './components/Slides'
 
 function App() {
 
   return (
     <>
+      <Menu/>
+      <Slides/>
           <h1>Aula Bootstrap</h1>
       <div className="row">
         {/* Soma das colunas tem q dar 12 */}
@@ -52,11 +56,11 @@ function App() {
       <tbody>
         <tr className='table-primary'>
           <td>Rodnei</td>
-          <td>Rua Dos Rodrigos</td>
+          <td>Rua Valorant</td>
           <td>12348819</td>
         </tr>
         <tr>
-          <td>@Eric Rodrigues</td>
+          <td>@EricRodrigues</td>
           <td>Instagram</td>
           <td>696969696969</td>
         </tr>
@@ -67,6 +71,8 @@ function App() {
         </tr>
       </tbody>
     </table>
+
+    <Lista/>
 
     </>
   )
