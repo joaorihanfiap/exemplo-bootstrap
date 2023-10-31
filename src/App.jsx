@@ -2,6 +2,8 @@ import './App.css'
 import Lista from './components/Lista'
 import Menu from './components/Menu'
 import Slides from './components/Slides'
+import Cartao from './components/Cartao'
+import Aviso from './components/Aviso'
 
 function App() {
 
@@ -9,7 +11,15 @@ function App() {
     <>
       <Menu/>
       <Slides/>
-          <h1>Aula Bootstrap</h1>
+      <div className="row d-flex jusify-content-evenly">
+        <Cartao/>
+        <Cartao/>
+        <Cartao/>
+      </div>
+      <h1>Aula Bootstrap</h1>
+
+      <Aviso/>
+
       <div className="row">
         {/* Soma das colunas tem q dar 12 */}
         <div className="col-md-6 col-lg-4 col-xl-3">Col-3</div>
